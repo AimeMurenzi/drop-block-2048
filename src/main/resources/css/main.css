@@ -1,0 +1,166 @@
+/**
+ * @Author: Aimé
+ * @Date:   2022-03-26 14:29:05
+ * @Last Modified by:   Aimé
+ * @Last Modified time: 2022-07-27 21:23:30
+ */
+
+/*========================================== GENERAL UI ===========================================*/
+.root {
+  -fx-font-size: 12pt;
+  -fx-font-family: "Courier New";
+  -fx-base: #151929;
+  /* -fx-background: #151929; */
+  -fx-background: #2a346654;
+  -fx-font-weight: bold;
+
+}
+
+.button,
+.label,
+.tab-label {
+  -fx-text-fill: rgb(128, 141, 203);
+}
+
+.glyph-icon {
+  -fx-fill: #ff6ebd;
+}
+
+.toggle-button .glyph-icon {
+  -fx-fill: #b30062;
+}
+
+.toggle-button:selected .glyph-icon {
+  -fx-fill: #ff6ebd;
+}
+
+.button {
+  -fx-base: #2d355f;
+}
+
+.GridPane {
+  -fx-background-color: #151929;
+}
+
+
+.block-x,
+.block-o,
+.block-plus,
+.block-empty {
+  -fx-background-radius: 0, 0, 0, 0;
+}
+
+.block-empty {
+  -fx-base: #00000077;
+  -fx-background: #00000077;
+}
+
+.block-plus {
+  -fx-base: #b30000;
+  -fx-background: #b30000;
+}
+
+.block-x {
+  -fx-base: #2c46d8;
+  -fx-background: #2c46d8;
+}
+
+.block-o {
+  -fx-base: #cc9c00;
+  -fx-background: #cc9c00;
+}
+
+/* -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color; */
+.drop-col {
+  -fx-background-color: none;
+  -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+  -fx-background-radius: 5, 5, 4, 3;
+  -fx-padding: 0.166667em 0.833333em 0.25em 0.833333em;
+  /* 2 10 3 10 */
+  -fx-text-fill: #eef0ef;
+  -fx-alignment: CENTER;
+  -fx-content-display: LEFT;
+  -fx-border-width: 3;
+
+}
+
+.bottom-border {
+  -fx-border-color: #0093ff;
+  -fx-border-radius: 0, 0, 0, 10;
+}
+
+.drop-col:hover {
+  -fx-border-color: #0093ff;
+  -fx-border-radius: 5, 5, 4, 3;
+}
+
+.block-1,
+.block-2,
+.block-3,
+.block-4,
+.block-5,
+.block-6,
+.block-7,
+.block-8,
+.block-9,
+.block-10,
+.block-11 {
+  -fx-font-weight: normal;
+  -fx-font-size: 16px;
+  -fx-text-fill: #eef0ef;
+}
+
+.block-1 {
+  -fx-background-color: #2499ce;
+
+}
+
+.block-2 {
+  -fx-background-color: #e88c42;
+
+}
+
+.block-3 {
+  -fx-background-color: #e25a88;
+
+}
+
+.block-4 {
+  -fx-background-color: #af4e7b;
+
+}
+
+.block-5 {
+  -fx-background-color: #a63d4b;
+
+}
+
+.block-6 {
+  -fx-background-color: #8d6ebb;
+
+}
+
+.block-7 {
+  -fx-background-color: #107f80;
+
+}
+
+.block-8 {
+  -fx-background-color: #0d7d7e;
+
+}
+
+.block-9 {
+  -fx-background-color: #58d8b5;
+
+}
+
+.block-10 {
+  -fx-background-color: #9adc5e;
+
+}
+
+.block-11 {
+  -fx-background-color: #af4e7b;
+
+}
